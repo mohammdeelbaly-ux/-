@@ -627,7 +627,7 @@
                 };
                 
                 request.onupgradeneeded = (event) => {
-                    const db = event.target.result;
+                    constه db = event.target.result;
                     
                     // Create collections store
                     if (!db.objectStoreNames.contains('collections')) {
